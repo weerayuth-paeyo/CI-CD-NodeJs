@@ -23,7 +23,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 app.get('/ci-cd', (req, res, next) => {
-  res.json({mes: 'Welcome to CI/CD testing ++'});
+  res.json({mes: 'Welcome to CI/CD testing '});
 });
 
 // catch 404 and forward to error handler
